@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Energy - MiniGame</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Sustainable Energy</h1>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="minigame.html" class="nav-link">MiniGame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="memory-game">
+  <p id="game-instructions">Match the cards to win. You have 3 tries remaining.</p>
+  <p id="score">Score: 0</p>
+  <div class="memory-cards">
+    <div class="memory-card" data-framework="a">
+      <img class="back-face" src="images/joker.jpg" alt="Card Back">
+      <img class="front-face" src="images/back1.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="a">
+      <img class="back-face" src="images/joker.jpg" alt="Card Back">
+      <img class="front-face" src="images/back1.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/ace.jpg" alt="Card Back">
+      <img class="front-face" src="images/back2.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/ace.jpg" alt="Card Back">
+      <img class="front-face" src="images/back2.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/king.jpg" alt="Card Back">
+      <img class="front-face" src="images/back1.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/king.jpg" alt="Card Back">
+      <img class="front-face" src="images/back1.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/queen.jpg" alt="Card Back">
+      <img class="front-face" src="images/back2.jpg" alt="Card Front">
+    </div>
+    <div class="memory-card" data-framework="b">
+      <img class="back-face" src="images/queen.jpg" alt="Card Back">
+      <img class="front-face" src="images/back2.jpg" alt="Card Front">
+    </div>
+  </div>
+  
+  <p id="resultMessage" style="display: none;"></p>
+  <button id="tryAgainButton" style="display: none;">Try Again</button>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">Copyright © 2023 Sustainable Energy Community. All rights reserved.</p>
+  </footer>
+
+  <script src="java/scripts.js"></script>
+</body>
+</html>

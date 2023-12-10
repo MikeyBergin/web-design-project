@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Energy - Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Sustainable Energy</h1>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="index.html"    class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="minigame.html"class="nav-link">MiniGame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+    <h2 class="contact-form-title">Contact Us</h2>
+    <form id="contactForm">
+      <label for="name" class="contact-form-label">Name:</label>
+      <input type="text" id="name" name="name" class="contact-form-input" required>
+
+      <label for="email" class="contact-form-label">Email:</label>
+      <input type="email" id="email" name="email" class="contact-form-input" required>
+
+      <label for="phone" class="contact-form-label">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" class="contact-form-input" required>
+
+      <label for="country" class="contact-form-label">Country:</label>
+      <select id="country" name="country" class="contact-form-input" required>
+        <option value="" disabled selected>Select your country</option>
+        <option value="Country 1">Ireland</option>
+        <option value="Country 2">United Kingdom</option>
+        
+      </select>
+
+      <label for="message" class="contact-form-label">Message:</label>
+      <textarea id="message" name="message" class="contact-form-textarea" required></textarea>
+
+      <button type="submit" class="contact-form-button">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">Copyright © 2023 Sustainable Energy Community. All rights reserved.</p>
+  </footer>
+
+  <script src="java/scripts.js"></script>
+</body>
+</html>
